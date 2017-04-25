@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html np-app="Player StatBook">
-<head>
-  <meta charset="UTF-8">
-  <title>NBA Player StatBook</title>
-  <link rel="stylesheet" href="style.css" />
-<head>
-<body>
-</ul>
-  <h1>Player StatBook</h1>
-  <p><img src='/images/NBA Teams.jpg'></p>
-  	<li><a href="#">Eastern Conference</a></li>
+<html ng-app="PlayerStatBook">
+	<head>
+	  <meta charset="UTF-8">
+	  <title>NBA Player StatBook</title>
+	  <link rel="stylesheet" href="styles/style.css" />
+	<head>
+	<body>
+	  <div ng-view></div>
+	 <!--  <li><a href="#">Eastern Conference</a></li>
 
-  	<li><a href="#">Western Conference</a></li>
-
-  	<script type="text/javascript"></script>
-  	<script type="text/javascript" src="app.js"></script>
-</body>
+	  <li><a href="#">Western Conference</a></li> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.js"></script>
+    <script src="app/player/playerProfile.js"></script>
+    <script src="app/search/search.js"></script>
+  	<script src="app/app.js"></script>
+	</body>
 </html>
