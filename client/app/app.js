@@ -1,1 +1,1 @@
-var app = angular.module('Player Stat Book', [])
+var app = angular.module('Player StatBook', ['ngRoute'])
