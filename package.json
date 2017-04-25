@@ -9,12 +9,10 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "postinstall": "curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/install | bash",
     "start": "gulp start",
     "start:es6": "gulp start:es6",
     "test": "gulp karma",
-    "test:es6": "gulp karma:es6",
-    "lint": "eslint ./"
+    "test:es6": "gulp karma:es6"
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
@@ -31,7 +29,6 @@
     "browser-sync": "^2.11.2",
     "chai": "^3.4.1",
     "clone-stats": "0.0.1",
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
     "gulp": "^3.8.5",
     "gulp-babel": "^6.1.2",
     "gulp-clean": "^0.3.2",
